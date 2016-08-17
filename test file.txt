@@ -1,0 +1,35 @@
+package rollDice;
+
+
+
+public class RollDice {
+
+	
+	
+	public int roll(){
+		
+		int total = 0;
+		int rand;
+		
+		
+		while(rand !=1){		
+			
+			rand = (int) java.lang.Math.ceil(java.lang.Math.random()*10);
+			if
+		}while(rand != 1);
+		
+		return total;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      RollDice firsTry = new RollDice();
+      
+      
+      
+      System.out.println(firsTry.roll());
+	}
+
+}
